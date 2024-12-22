@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMAR's Anime Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #ff4d4d, #ff9999); /* Anime-themed colors */
+            font-family: 'Arial', sans-serif;
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .container {
+            animation: float 4s ease-in-out infinite;
+        }
+        h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+        }
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            background: #ff3333;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background: #cc0000;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to MMAR's Anime World!</h1>
+        <a href="https://discord.gg/anicrew" target="_blank">Join My Discord</a>
+    </div>
+</body>
+</html>
