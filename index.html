@@ -8,7 +8,12 @@
         body {
             margin: 0;
             padding: 0;
-            background: linear-gradient(120deg, #ff4d4d, #ff9999); /* Anime-themed colors */
+            background-image: url('https://wallpapers.com/images/featured/anime-aesthetic-nokxj9c0zfgs08cf.jpg'), 
+                              url('https://wallpapers.com/images/hd/cute-anime-girl-sunset-p9exs79tczzhyuey.jpg'),
+                              url('https://wallpapers.com/images/hd/stylish-anime-boy-with-red-hair-dgjwnk5ywizso1jt.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Parallax effect */
             font-family: 'Arial', sans-serif;
             color: white;
             text-align: center;
@@ -36,35 +41,10 @@
         a:hover {
             background: #cc0000;
         }
-        .anime-images {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 15px;
-            margin-top: 20px;
-        }
-        .anime-images img {
-            width: 200px;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s, box-shadow 0.3s;
-        }
-        .anime-images img:hover {
-            transform: scale(1.1);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-        }
     </style>
 </head>
 <body>
     <h1>Welcome to MMAR's Anime World!</h1>
     <a href="https://discord.gg/anicrew" target="_blank">Join My Discord</a>
-    <div class="anime-images">
-        <img src="https://wallpapers.com/images/featured/anime-aesthetic-nokxj9c0zfgs08cf.jpg" alt="Anime 1">
-        <img src="https://wallpapers.com/images/hd/cute-anime-girl-sunset-p9exs79tczzhyuey.jpg" alt="Anime 2">
-        <img src="https://wallpapers.com/images/hd/stylish-anime-boy-with-red-hair-dgjwnk5ywizso1jt.jpg" alt="Anime 3">
-        <img src="https://wallpapers.com/images/hd/anime-landscape-pink-sky-1l8r8xr2nfim1kfh.jpg" alt="Anime 4">
-    </div>
 </body>
 </html>
