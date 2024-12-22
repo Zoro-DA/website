@@ -14,16 +14,15 @@
             text-align: center;
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             overflow: hidden;
         }
-        .container {
-            animation: float 4s ease-in-out infinite;
-        }
         h1 {
             font-size: 3rem;
             text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+            margin-bottom: 20px;
         }
         a {
             text-decoration: none;
@@ -37,16 +36,35 @@
         a:hover {
             background: #cc0000;
         }
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+        .anime-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .anime-images img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .anime-images img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to MMAR's Anime World!</h1>
-        <a href="https://discord.gg/anicrew" target="_blank">Join My Discord</a>
+    <h1>Welcome to MMAR's Anime World!</h1>
+    <a href="https://discord.gg/anicrew" target="_blank">Join My Discord</a>
+    <div class="anime-images">
+        <img src="https://wallpapers.com/images/featured/anime-aesthetic-nokxj9c0zfgs08cf.jpg" alt="Anime 1">
+        <img src="https://wallpapers.com/images/hd/cute-anime-girl-sunset-p9exs79tczzhyuey.jpg" alt="Anime 2">
+        <img src="https://wallpapers.com/images/hd/stylish-anime-boy-with-red-hair-dgjwnk5ywizso1jt.jpg" alt="Anime 3">
+        <img src="https://wallpapers.com/images/hd/anime-landscape-pink-sky-1l8r8xr2nfim1kfh.jpg" alt="Anime 4">
     </div>
 </body>
 </html>
