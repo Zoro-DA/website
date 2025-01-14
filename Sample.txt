@@ -1,0 +1,20 @@
+<div class="product-card">
+            <div class="card-front">
+                <div class="stock-status in-stock">In Stock</div>
+                <img src="https://variety.com/wp-content/uploads/2020/05/netflix-logo.png" alt="Netflix Logo">
+                <h3>Netflix Premium</h3>
+                <p>Stream your favorite shows and movies in HD.</p>
+                <p class="price">
+                    <span class="crossed-price">$129.99</span>
+                    <span class="current-price">$99.99</span>
+                </p>
+                <button><a href="https://www.rapidtables.com/convert/color/hex-to-rgb.html?hex=011120" target="_blank">Buy Now</a></button>
+            </div>
+            <div class="card-back">
+                <h3>More Details</h3>
+                <p>• Watch on 4 devices simultaneously.</p>
+                <p>• Access to exclusive Netflix Originals.</p>
+                <p>• Cancel anytime.</p>
+                <p>• 4K Ultra HD available.</p>
+            </div>
+        </div>
